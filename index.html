@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vindict</title>
+	<link rel="stylesheet" href="../fonts/font-awesome/css/all.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+
+<body class="body">
+	<div class="site">
+		<header class=" header">
+			<div class="header__container container flex">
+				<div class="header__logo">VINDICT<i>.</i></div>
+				<nav class="header__nav header-nav">
+					<ul class="header-nav__list liststyle flex">
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link" title="Сайты">Сайты</a>
+						</li>
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link" title="Приложения">Приложения</a>
+						</li>
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link" title="Маркетинг">Маркетинг</a>
+						</li>
+						<li class="header-nav__item">
+							<a href="#" class="header-nav__link" title="Дизайн">Дизайн</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="header__language language liststyle flex">
+					<li class="language__ua language__item">
+						<a href="#" class="language__link language__link--ua">UA</a>
+					</li>
+					<li class="language__ru language__item">
+						<a href="#" class="language__link language__link--ru active">RU</a>
+					</li>
+					<li class="language__en language__item">
+						<a href="#" class="language__link">EN</a>
+					</li>
+				</ul>
+				<div class="menu__name">Меню</div>
+				<div class="header__menu">
+					<batton class="menu__burger js-burger reset-btn">
+						<span class="menu__cross"></span>
+					</batton>
+				</div>
+				<div class="menu__toggle toggle">
+					<div class="toggle__nav toggle-nav flex">
+						<ul class="toggle-nav__list liststyle flex">
+							<li class="toggle-nav__item">
+								<a href="#" class="toggle-nav__link">Услуги</a>
+							</li>
+							<li class="toggle-nav__item">
+								<a href="#" class="toggle-nav__link">О Vindict</a>
+							</li>
+							<li class="toggle-nav__item">
+								<a href="#" class="toggle-nav__link">Портфолио</a>
+							</li>
+							<li class="toggle-nav__item">
+								<a href="#" class="toggle-nav__link">Блог</a>
+							</li>
+							<li class="toggle-nav__item">
+								<a href="#" class="toggle-nav__link">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="toggle__footer flex">
+						<div class="toggle__address-link flex">
+							<a href="mailto:hello@vindict.com.ua" class="toggle__mail">hello@vindict.com.ua</a>
+							<a href="tel:+380666882233" class="toggle__tel">+380666882233</a>
+						</div>
+						<div class="toggle__soc-refs">
+							<ul class="toggle__soc-list liststyle flex">
+								<li class="toggle__soc-item">
+									<a href="#" class="toggle__soc-link" title="Telegram">Telegram</a>
+								</li>
+								<li class="toggle__soc-item">
+									<a href="#" class="toggle__soc-link" title="Instagram">Instagram</a>
+								</li>
+								<li class="toggle__soc-item">
+									<a href="#" class="toggle__soc-link" title="Facebook">Facebook</a>
+								</li>
+								<li class="toggle__soc-item">
+									<a href="#" class="toggle__soc-link" title="Behance">Behance</a>
+								</li>
+								<li class="toggle__soc-item">
+									<a href="#" class="toggle__soc-link" title="Dribbble">Dribbble</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	
+	
+		<main class="main">
+			<section class="hero">
+				
+				<img src="/img/osc_right_up.png" alt="" class="hero__background--osc3">
+				<img src="/img/osc_left_up.png" alt="" class="hero__background--osc4">
+				<img class="hero__background" src="/img/men-ellips.png" alt="Men">
+				<img src="/img/osc_right_down.png" alt="" class="hero__background--osc1">
+				<img src="/img/osc_left_down.png" alt="" class="hero__background--osc2">
+				<div class="hero__container container">
+					<div class="hero__text flex">
+						<div class="hero__heading flex">
+							<h1 class="hero__title" id="heroTitle">Digital агентство</h1>
+							<span class="hero__lable" id="heroLable">Vindict</span>
+						</div>
+						<h3 class="hero__title--addition" id="heroTitleAdd">Сайты, приложения, маркетинг, дизайн и многое другое</h3>
+						<span class="hero__definition" id="heroDefinition">Позвольте вас <span>приятно</span> удивить</span>
+						<div class="hero__btn-group flex">
+							<button class="hero__btn--sentence reset-btn">Получить предложение</button>
+							<button class="hero__btn--portfolio reset-btn">В портфолио</button>
+						</div>
+						<span class="hero__present" id="heroPresent"><span>*</span> И получить в подарок чек-лист по запуску
+							бизнеса в интернете за 3 дня</span>
+					</div>
+				</div>
+			</section>
+			<section class="about-us">
+				<div class="about-us__container container">
+					<div class="about-us__title-block flex">
+						<span class="about-us__addition">МЫ —</span>
+						<h2 class="about-us__title h2title">Немного о нас</h2>
+						<a href="#" class="about-us__link">Узнать больше откровений</a>
+					</div>
+					<p class="about-us__description description1 description">Агентство, которое не боится сложностей, разрабатываем
+						веб и
+						мобайл решения,
+						продвигаем лица и бренды, создаем запоминающийся дизайн.</p>
+					<svg class="about-us__artboard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1014 356" width="1014"
+						height="356">
+						<g id="Artboard_1" data-name="Artboard 1">
+							<g id="Vindict">
+								<circle class="cls-1" id="Ellipse_2_copy" cx="313" cy="149.062" r="140" data-name="Ellipse 2 copy" />
+								<circle class="cls-2" id="Ellipse_2_copy_2" cx="263" cy="199.062" r="140" data-name="Ellipse 2 copy 2" />
+								<circle class="cls-2" id="Ellipse_2_copy_3" cx="303" cy="179.062" r="140" data-name="Ellipse 2 copy 3" />
+								<circle class="cls-2" id="Ellipse_2_copy_4" cx="263" cy="159.062" r="140" data-name="Ellipse 2 copy 4" />
+								<circle class="cls-3" cx="283" cy="169.062" r="140" />
+								<path class="cls-4" id="V_DICT"
+									d="M 58.441 211.177 l 42.742 -100.11 H 89.113 l -35.5 85.626 L 18.255 111.067 H 5.759 L 48.5 211.177 h 9.94 Z m 449.624 -0.71 q 23.144 0 37.985 -14.2 t 14.839 -35.5 q 0 -21.44 -14.768 -35.571 t -38.056 -14.129 H 473.559 v 99.4 h 34.506 Z m -23.288 -89.034 h 23.288 q 18.458 0 29.82 11.218 t 11.36 28.116 q 0 17.04 -11.289 28.187 T 508.065 200.1 H 484.777 V 121.433 Z m 177.314 89.034 v -99.4 H 650.873 v 99.4 h 11.218 Z m 161.7 -2.556 A 61.512 61.512 0 0 0 841.4 195.273 l -7.384 -7.81 a 60.594 60.594 0 0 1 -15.052 10.792 a 38.879 38.879 0 0 1 -17.04 3.55 a 36 36 0 0 1 -27.406 -11.857 q -11.076 -11.855 -11.076 -29.181 q 0 -17.466 11 -29.252 a 36.034 36.034 0 0 1 27.477 -11.786 q 16.9 0 31.24 13.632 l 7.384 -7.952 a 64.077 64.077 0 0 0 -17.182 -12 q -8.806 -4.047 -21.3 -4.047 q -21.587 0 -35.926 14.981 T 751.8 160.767 q 0 21.726 14.2 36.565 t 35.642 14.839 Q 814.558 212.171 823.791 207.911 Z m 140.358 2.556 V 121.433 h 33.37 V 111.067 h -78.1 v 10.366 h 33.37 v 89.034 h 11.36 Z"
+									data-name="V   DICT" />
+								<path class="cls-5" id="IN"
+									d="M 202.478 211.994 v -99.4 H 191.26 v 99.4 h 11.218 Z m 105.042 0 V 130.486 L 371.7 211.994 h 8.946 v -99.4 H 369.716 v 79.662 l -62.622 -79.662 H 296.586 v 99.4 H 307.52 Z" />
+							</g>
+						</g>
+					</svg>
+					<div class="about-us__description--right">
+						<p class="about-us__description description2">Наша цель — создавать сильные бренды. Бренды, которые будут
+							говорить сами за себя.</p>
+						<p class="about-us__description description3">Перед началом работы анализируем ваш бизнес, изучаем целевую
+							аудиторию и конкурентов. Составляем план создания и развития вашего продукта, утверждаем с вами и воплощаем!
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="services__container container">
+					<div class="services__title-block flex">
+						<span>ТВОРИМ</span>
+						<h2 class="services__title h2title">Услуги</h2>
+						<a href="#" class="servicec__link">Открыть калькулятор услуг</a>
+					</div>
+					<p class="services__description description">Эффектные и эффективные диджитал решения
+						с полным погружением в ваш бизнес.</p>
+					<div class="services__cards">
+						<div class="services__card card services__card-left">
+							<h3 class="card__title">Интернет магазин</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 800$</span>
+							</div>
+						</div>
+						<div class="services__card card services__card-right">
+							<h3 class="card__title">Landing Page</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 400$</span>
+							</div>
+						</div>
+						<div class="services__card card services__card-left">
+							<h3 class="card__title">Корпоративный сайт</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 1200$</span>
+							</div>
+						</div>
+						<div class="services__card card services__card-right">
+							<h3 class="card__title">Криптопроект</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 2000$</span>
+							</div>
+						</div>
+						<div class="services__card card services__card-left">
+							<h3 class="card__title">Бизнес проект</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 1500$</span>
+							</div>
+						</div>
+						<div class="services__card card services__card-right">
+							<h3 class="card__title">Портал</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 1200$</span>
+							</div>
+						</div>
+						<div class="services__card card services__card-left">
+							<h3 class="card__title">SMM продвижение</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 400$</span>
+							</div>
+						</div>
+						<div class="services__card card services__card-right">
+							<h3 class="card__title">Дизайн</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 400$</span>
+							</div>
+						</div>
+						<div class="services__card card services__card-left">
+							<h3 class="card__title">Мобильные приложения</h3>
+							<p class="card__description">Делаем работу интернет-магазина простой и быстрой благодаря специальным
+								инструментам.</p>
+							<div class="card__link--block flex">
+								<a href="#" class="card__link" title="Узнать больше">Узнать больше</a>
+								<svg class="card__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+									height="15">
+									<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z" />
+									<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z" />
+								</svg>
+								<span class="card__price">от 1200$</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="portfolio">
+				<div class="portfolio__container container">
+					<div class="portfolio__title-block flex">
+						<span>Кейсы</span>
+						<h2 class="portfolio__title h2title">Портфолио</h2>
+						<a href="#" class="portfolio__title--link">Перейти к портфолио</a>
+					</div>
+					<p class="portfolio__description description">Свежие проекты, буквально с творческой печи</p>
+					<ul class="portfolio__tab liststyle flex">
+						<li class="portfolio__item">
+							<button class="portfolio__link reset-btn">Все проекты</button>
+						</li>
+						<li class="portfolio__item">
+							<button class="portfolio__link reset-btn">Сайты</button>
+						</li>
+						<li class="portfolio__item">
+							<button class="portfolio__link reset-btn">Приложения</button>
+						</li>
+						<li class="portfolio__item">
+							<button class="portfolio__link reset-btn">Маркетинг</button>
+						</li>
+					</ul>
+					<div class="portfolio__content">
+						<div class="portfolio__block block-right flex">
+							<div class="block__foto--wrap">
+								<picture class="block__foto">
+									<source srcset="/img/port1.png" media="(min-width: 580px)">
+									<img src="/img/port1_mob.png" alt="">
+								</picture>
+							</div>
+							<div class="block__text--right">
+								<div class="block__heading flex">
+									<a href="#" class="block__title">VisionWallet</a>
+									<span class="block__sub">Криптовалютный проект</span>
+								</div>
+								<h4 class="block__list-title">Что было сделано:</h4>
+								<ul class="block__list liststyle">
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										<span>Веб-сайт</span>
+									</li>
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										<span>Мобильные приложения (iOS / Android)</span>
+									</li>
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										Редизайн страниц
+									</li>
+								</ul>
+								<div class="block__link--case flex flex">
+									<a href="#" class="block__link">Подробнее</a>
+									<svg class="block__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+										height="15">
+										<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z"></path>
+										<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z"></path>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__block block-left flex">
+							<div class="block__foto--wrap">
+								<picture class="block__foto">
+									<source srcset="/img/port2.png" media="(min-width: 580px)">
+									<img src="/img/port2_mob.png" alt="ellips">
+								</picture>
+							</div>
+							<div class="block__text--left">
+								<div class="block__heading flex">
+									<a href="#" class="block__title block__title--left">WorkEC</a>
+									<span class="block__sub">Корпоративный сайт</span>
+								</div>
+								<h4 class="block__list-title">Что было сделано:</h4>
+								<ul class="block__list liststyle">
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										<span>Веб-сайт</span>
+									</li>
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										<span>Мобильные приложения (iOS / Android)</span>
+									</li>
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										Редизайн страниц
+									</li>
+								</ul>
+								<div class="block__link--case flex flex">
+									<a href="#" class="block__link">Подробнее</a>
+									<svg class="block__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+										height="15">
+										<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z"></path>
+										<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z"></path>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio__block block-right flex">
+							<div class="block__foto--wrap">
+								<picture class="block__foto">
+									<source srcset="/img/port1.png" media="(min-width: 580px)">
+									<img src="/img/port1_mob.png" alt="">
+								</picture>
+							</div>
+							<div class="block__text--right">
+								<div class="block__heading flex">
+									<a href="#" class="block__title">VisionWallet</a>
+									<span class="block__sub">Криптовалютный проект</span>
+								</div>
+								<h4 class="block__list-title">Что было сделано:</h4>
+								<ul class="block__list liststyle">
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										<span>Веб-сайт</span>
+									</li>
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										<span>Мобильные приложения (iOS / Android)</span>
+									</li>
+									<li class="block__item flex">
+										<div class="block__ellipse flex">
+											<img src="/img/Ellipse.png" alt="ellips">
+											<span>+</span>
+										</div>
+										Редизайн страниц
+									</li>
+								</ul>
+								<div class="block__link--case flex">
+									<a href="#" class="block__link">Подробнее</a>
+									<svg class="block__link--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 81" width="20"
+										height="15">
+										<path class="cls-1" d="M 0.083 32.478 h 161.7 v 10.78 H 0.083 V 32.478 Z"></path>
+										<path class="cls-1" id="Triangle_506" d="M 210.292 40.528 L 139.824 80.919 V 0.138 Z"></path>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="working">
+				<div class="working__container container">
+					<div class="working__title-block">
+						<span>Принципы</span>
+						<h2 class="working__title h2title">Как мы работаем</h2>
+						<p class="working__description description">Мы следуем жестким и четким принципам, которые
+							позволяют эффективно выполнять ваши заказы</p>
+					</div>
+					<div class="working__content flex">
+						<div class="working__chat">
+							<div class="working__message message--wight message--red-1">Добрый день!</div>
+							<div class="working__message message--red message--red-2">Добрый! Чем можем помочь?</div>
+							<div class="working__message message--wight message--wight-3">Я хотел бы сделать сайт</div>
+							<div class="working__message message--wight message--wight-4">Сколько это стоит?</div>
+							<div class="working__message message--red message--red-5">Чтобы мы могли оценить Ваш проект,
+								нам необходимо задать Вам пару вопросов.</div>
+							<div class="working__message message--red message--red-6">Когда Вам будет удобно созвониться?</div>
+							<div class="working__message message--wight message--wight-7">Как можно скорее, сайт нужен уже вчера!</div>
+							<div class="working__message message--red message--red-8">Уже набираем :)</div>
+						</div>
+						<div class="working__answers">
+							<div class="working__accordeon accordeon__wrapper accordeon" id="accordeon"">
+								<div class=" accordeon__section js-section">
+								<button class="accordeon__title" tabindex="0">1. Скорость<i class="fas fa-chevron-down"></i></button>
+								<div class="accordeon__content js-content">
+									<p class="accordeon-item">Мы берем ограниченное количество заказов, чтобы не распыляться и успеть
+										выполнить все в срок.</p>
+								</div>
+							</div>
+							<div class="accordeon__section js-section">
+								<button class="accordeon__title" tabindex="0">2. Клиентоориентированность<i
+										class="fas fa-chevron-up"></i></button>
+								<div class="accordeon__content js-content">
+									<p class="accordeon-item">Мы берем ограниченное количество заказов, чтобы не распыляться и успеть
+										выполнить все в срок.</p>
+								</div>
+							</div>
+							<div class="accordeon__section js-section">
+								<button class="accordeon__title" tabindex="0">3. Аналитический подход<i
+										class="fas fa-chevron-up"></i></button>
+								<div class="accordeon__content js-content">
+									<p class="accordeon-item">Мы берем ограниченное количество заказов, чтобы не распыляться и успеть
+										выполнить все в срок.</p>
+								</div>
+							</div>
+							<div class="accordeon__section js-section">
+								<button class="accordeon__title" tabindex="0">4. Стратегия<i class="fas fa-chevron-up"></i></button>
+								<div class="accordeon__content js-content">
+									<p class="accordeon-item">Мы берем ограниченное количество заказов, чтобы не распыляться и успеть
+										выполнить все в срок.</p>
+								</div>
+							</div>
+							<div class="accordeon__section js-section">
+								<button class="accordeon__title" tabindex="0">5. Проработка<i class="fas fa-chevron-up"></i></button>
+								<div class="accordeon__content js-content">
+									<p class="accordeon-item">Мы берем ограниченное количество заказов, чтобы не распыляться и успеть
+										выполнить все в срок.</p>
+								</div>
+							</div>
+							<div class="accordeon__section js-section">
+								<button class="accordeon__title" tabindex="0">6. Win-win<i class="fas fa-chevron-up"></i></button>
+								<div class="accordeon__content js-content">
+									<p class="accordeon-item">Мы берем ограниченное количество заказов, чтобы не распыляться и успеть
+										выполнить все в срок.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</section>
+			<section class="blog">
+				<div class="blog__container container">
+					<h2 class="blog__title h2title"><span>Пишем</span>Уютный блог</h2>
+					<p class="blog__description description">Делимся трендами, мыслями, идеями и... продолжи сам
+						Чувствуй себя как дома, проходи, не засиживайся</p>
+					<div class="blog__content flex">
+						<div class="blog__articles flex">
+							<div class="blog__articl--up flex">
+								<article class="blog__item articl articl-item1 flex">
+									<div class="articl__foto--wrap foto-wrap-1">
+										<picture class="articl__foto articl__foto--1">
+											<source srcset="/img/blog1.png" media="(min-width: 320px)">
+											<img src="/img/blog1-mob.png" alt="Статья 1">
+										</picture>
+									</div>
+									<a href="#" class="articl__title">Один или два монитора, вот в чем вопрос</a>
+									<p class="articl__description">Два монитора конечно смотрятся эффектно, но
+										нужны ли они на самом деле?</p>
+									<div class="articl__views"></div>
+									<div class="articl__counter--block flex">
+										<div class="articl__eye"><img src="/img/eye_.png" alt="Счетчик3"></div>
+										<span class="articl__counter">2.2k</span>
+									</div>
+								</article>
+								<article class="blog__item articl articl-item2 flex">
+									<div class="articl__foto--wrap foto-wrap-2">
+										<picture class="articl__foto articl__foto--2">
+											<source srcset="/img/blog2.png" media="(min-width: 320px)">
+											<img src="/img/blog2-mob.png" alt="Статья 2">
+										</picture>
+									</div>
+									<a href="#" class="articl__title">BACKSTAGE со съемок Промо vindict</a>
+									<p class="articl__description">А ты что думал, у нас тоже есть бэки,
+										с тачками и девочками</p>
+									<div class="articl__views"></div>
+									<div class="articl__counter--block flex">
+										<div class="articl__eye"><img src="/img/eye_.png" alt="Счетчик3"></div>
+										<span class="articl__counter">2.2k</span>
+									</div>
+								</article>
+							</div>
+							<article class="blog__item articl articl-item3 flex">
+								<div class="articl__foto--wrap foto-wrap-3">
+									<picture class="articl__foto articl__foto--3">
+										<source srcset="/img/blog3.png" media="(min-width: 320px)">
+										<img src="/img/blog3-mob.png" alt="Статья 3">
+									</picture>
+								</div>
+								<a href="#" class="articl__title">Как это развидеть? Топ-10 неудачных приемов в дизайне</a>
+								<p class="articl__description">Если ты хочешь дизайн высшего пилотажа, то не допускай этих ошибок</p>
+								<div class="articl__views"></div>
+								<div class="articl__counter--block flex">
+									<div class="articl__eye"><img src="/img/eye_.png" alt="Счетчик3"></div>
+									<span class="articl__counter">2.2k</span>
+								</div>
+							</article>
+						</div>
+						<div class="blog__top top">
+							<h3 class="top__title">Топ лучших статей</h3>
+							<ul class="top__list liststyle">
+								<li class="top__item top__item--1">
+									<a href="#" class="top__link">Как сказать клиенту, что он не прав,
+										при этом не потеряв его</a>
+								</li>
+								<li class="top__item top__item--2">
+									<a href="#" class="top__link">5 решений для подарка зарубежным
+										коллегам и партнёрам</a>
+								</li>
+								<li class="top__item top__item--3">
+									<a href="#" class="top__link">Как быть сильнее обстоятельств и не
+										сломаться под ударами судьбы</a>
+								</li>
+								<li class="top__item top__item--4">
+									<a href="#" class="top__link">Должен ли мужчина зарабатывать
+										больше, чем женщина</a>
+								</li>
+								<li class="top__item top__item--5">
+									<a href="#" class="top__link">6 советов, которые помогут даже
+										в самые темные времена</a>
+								</li>
+								<li class="top__item top__item--6">
+									<a href="#" class="top__link">Пятничный разбор полетов VINDICT:
+										Где летаем, кого подбиваем</a>
+								</li>
+								<li class="top__item top__item--7">
+									<a href="#" class="top__link">Суботняя подборка фильмов для
+										просмотра в уютной обстановке</a>
+								</li>
+								<li class="top__item top__item--8">
+									<a href="#" class="top__link">Как быть, когда бюджет на нуле,
+										но амбиции зовут делать</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+		</main>
+		<footer class="footer">
+			<div class="footer__bacg--up">
+				<div class="footer__container container">
+					<h2 class="footer__title">Давайте обсудим ваш проект,
+						<span>нам есть что предложить!</span></h2>
+					<div class="footer__content flex">
+						<button class="footer__btn reset-btn">Подать заявку</button>
+						<a href="mailto:hello@vindict.com.ua" class="footer__mail">hello@vindict.com.ua</a>
+						<a href="tel:+380666543322" class="footer__tel">+380666543322</a>
+						<div class="footer__soc flex">
+							<a href="#" class="footer__be"><span>Be</span></a>
+							<a href="#" class="footer__li"><span>Li</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bacg--down">
+				<div class="footer__container container">
+					<div class="footer__down flex">
+						<a href="#" class="footer__logo logo">VINDICT<i>.</i></a>
+						<nav class="footer__nav">
+							<ul class="footer__nav--list liststyle flex">
+								<li class="footer__nav--item">
+									<a href="#" class="footer__nav--link" title="Услуги">Услуги</a>
+								</li>
+								<li class="footer__nav--item">
+									<a href="#" class="footer__nav--link" title="Блог">Блог</a>
+								</li>
+								<li class="footer__nav--item">
+									<a href="#" class="footer__nav--link" title="Портфолио">Портфолио</a>
+								</li>
+								<li class="footer__nav--item">
+									<a href="#" class="footer__nav--link" title="Контакты">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+	<script src="https://www.micelistudios.com/js/utils/SplitText.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+	<script src="js/accordeon.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/adaptive.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
