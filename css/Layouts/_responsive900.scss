@@ -1,0 +1,162 @@
+@media (max-width: 900px) {
+	.container {
+		max-width: 768px;
+	}
+
+	html {
+		font-size: 13px;
+	}
+
+	.menu__name {
+		margin-right: 5px;
+	}
+
+	.menu__burger span {
+		width: 35px;
+		height: 2px;
+	}
+
+	.menu__burger span::after {
+		top: -8px;
+		width: 25px;
+		height: 2px;
+	}
+
+	.menu__burger span::before {
+		top: 8px;
+		width: 25px;
+		height: 2px;
+	}
+
+	.hero__container {
+		padding-left: calc(9% + 339px);
+	}
+
+	.hero__background {
+		left: calc(((100vw - 1166px) / 3) + 103px);
+	}
+
+	.hero__background--osc1 {
+		left: calc(((100vw - 1166px) / 2.3) + 451px);
+		top: calc(149% - 475px);
+		width: calc(4% + 55px);
+	}
+
+	.hero__background--osc2 {
+		left: calc(((100vw - 1166px) / 3.3) + 124px);
+		top: calc(147% - 516px);
+		width: calc(4% + 65px);
+	}
+
+	.hero__background--osc3 {
+		left: calc(((100vw - 1166px) / 2.1) + 507px);
+		top: calc(61% - 226px);
+		width: calc(2% + 30px);
+	}
+
+	.hero__background--osc4 {
+		left: calc(((100vw - 1166px) / 3.2) + 138px);
+		top: calc(41% - 70px);
+		width: calc(3% - 1px);
+	}
+
+
+	.hero__btn--sentence {
+		width: 300px;
+	}
+
+	.hero__btn--portfolio {
+		width: 300px;
+	}
+
+	.about-us__title-block {
+		flex-direction: column;
+
+		span {
+			left: 79px;
+		}
+	}
+
+	.about-us__link {
+		margin-bottom: 20px;
+		font-size: 18px;
+
+		&:hover::before {
+			width: 288px;
+		}
+	}
+
+	.servicec__link {
+		margin-bottom: 20px;
+		font-size: 18px;
+
+		&:hover::before {
+			width: 288px;
+		}
+
+		&::after {
+			width: 49%;
+			left: -164px;
+		}
+	}
+
+	.services__cards {
+		grid-gap: 20px;
+	}
+
+	.services__card {
+		width: 330px;
+		height: 180px;
+	}
+
+	.card__link:hover::before {
+		width: 99px;
+	}
+
+
+	.portfolio__title--link {
+		margin-bottom: 20px;
+		font-size: 18px;
+
+		&:hover::before {
+			width: 228px;
+		}
+	}
+
+	.portfolio__title--link::after {
+		display: none;
+	}
+
+	.portfolio__tab {
+		margin-bottom: 60px;
+	}
+
+	.portfolio__block {
+		padding-bottom: 0;
+	}
+
+	.top__title::before {
+		left: 10px;
+	}
+
+	.footer__bacg--down {
+		display: none;
+	}
+
+	.footer__title {
+		width: 100%;
+	}
+
+	.toggle__soc-list {
+		flex-direction: column;
+	}
+
+	.toggle-nav__link {
+		line-height: 60px;
+	}
+
+	.toggle-nav {
+		margin-bottom: 80px;
+		margin-top: 40px;
+	}
+}

@@ -1,0 +1,12 @@
+<svg id="Стрелочка" xmlns="http://www.w3.org/2000/svg" width="400.008" height="154.289" viewBox="0 0 210 81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #292929;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0.083,32.478h161.7v10.78H0.083V32.478Z"/>
+  <path id="Triangle_506" data-name="Triangle 506" class="cls-1" d="M210.292,40.528L139.824,80.919V0.138Z"/>
+</svg>

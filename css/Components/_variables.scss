@@ -1,0 +1,65 @@
+:root {
+	--red: #e8414f;
+	--red-lite: #eb616c;
+	--red-lite2: #ff5c69;
+	--red-lite3:#ffc8c8;
+	--red-middle: #db3a3f;
+	--wight: #ffffff;
+	--blue: #0053ff;
+	--yellow: #d89f34;
+	--black: #000000;
+	--grey1: #333333;
+	--grey2: #2a2a2a;
+	--grey3: #3b3b3b;
+	--grey4: #dedede;
+	--grey5: #a6a6a6;
+	--grey6: #292929;
+	--grey7: #242424;
+	--grey8: #676767;
+	--grey9: #434343;
+	--grey10: #9f9f9f;
+	--grey11: #969696;
+	--grey12: #383838;
+	--grey13: #fdfdfd;
+}
+
+$back: calc((100vw - 1196px)/2 - 82px);
+$back2: calc((100vw - 1196px)/2 - 47px);
+$back3: calc((100vw - 1196px)/2 + 110px);
+
+@mixin title {
+	position: relative;
+	margin-bottom: 7px;
+	font-family: 'Arkhip';
+	font-weight: 400;
+	font-style: normal;
+	font-size: rem(62);
+	line-height: 60px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: var(--grey6);
+}
+
+@mixin titleSpan {
+	position: absolute;
+	opacity: 0.1;
+	font-family: 'GothamPro';
+	font-size: rem(92);
+	line-height: 60px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	color: var(--grey6);
+}
+
+$baseFontSize : 16;
+@function rem($pixels, $context: $baseFontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}

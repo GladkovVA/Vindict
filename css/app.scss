@@ -1,0 +1,22 @@
+// Компоненты
+@import "Components/variables";
+@import "Components/fonts";
+@import "Components/nullstyle";
+@import "Components/componenets";
+
+// Страницы
+@import "Pages/header";
+@import "Pages/hero";
+@import "Pages/about-us";
+@import "Pages/services";
+@import "Pages/portfolio";
+@import "Pages/working";
+@import "Pages/blog";
+@import "Pages/footer";
+@import "Pages/togle-menu";
+
+@import "Layouts/responsive1270";
+@import "Layouts/responsive1070";
+@import "Layouts/responsive900";
+@import "Layouts/responsive768";
+@import "Layouts/responsive450";

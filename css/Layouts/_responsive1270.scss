@@ -1,0 +1,48 @@
+@media (max-width: 1270px) {
+	.container {
+		max-width: 1050px;
+	}
+
+	.menu__name {
+		margin-right: -38px;
+	}
+
+	.about-us__link::after {
+    width: 11%;
+    left: -55px;
+}
+
+	.about-us__title-block span {
+    left: -25px;
+	}
+
+	.servicec__link::after {
+		width: 70%;
+		left: -255px;
+	}
+
+	.services__title-block span {
+    left: -22px;
+	}
+
+	.portfolio__title--link::after {
+		width: 50%;
+		left: -162px;
+	}
+
+	.portfolio__title-block span {
+    left: -25px;
+	}
+
+	.working__title-block span {
+    left: -25px;
+	}
+
+	.block__list {
+		margin-bottom: 45px;
+	}
+
+	.block__foto img {
+    min-height: 310px;
+	}
+}
